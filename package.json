@@ -1,0 +1,22 @@
+{
+    "name": "vue-library-steam",
+    "description": "基于Vue的移动端组件库",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "site": "npx vue-components-tool run site",
+        "server": "npx vue-components-tool run dev",
+        "build:site": "npx vue-components-tool run build:site",
+        "build:components": "npx vue-components-tool run build:components"
+    },
+    "author": "Nuo FE",
+    "maintainers": [
+        "wfy"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@nuofe/vue-components-tool": "^0.0.1",
+        "vue-router": "^3.0.6"
+    }
+}
